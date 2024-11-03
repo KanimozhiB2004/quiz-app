@@ -1,0 +1,95 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        #quiz, #end-screen {
+            display: none;
+        }
+        h1{
+            color: #f4f4f4;
+        }
+        .quiz-container{
+            background-color:darkslategrey;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .timer {
+            /* margin-top: 20px; */
+            font-size: 18px;
+            background-color: #f4f4f4;
+            padding: 6px;
+            border-radius: 10px;
+        }
+        .option{
+            width: 200px;
+            display:inline-block;
+            background-color: aliceblue;
+            padding: 10px;
+            vertical-align: middle;
+            margin: 20px 0 0px 0;
+            border-radius: 10px;
+        }
+        .option:hover{
+            background-color:cadetblue;
+            color:white;
+        }
+        #startBtn{
+            border: none;
+            outline: none;
+            background-color: aliceblue;
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+            float: right;
+            margin-top: 10px;
+            margin-right: 100px;
+        }
+        #startBtn:hover{
+            background-color: cadetblue;
+            color:white;
+        }
+        .create{
+            display: flex;
+            
+            justify-content: space-between;
+        }
+        #end-screen{
+            color: #f4f4f4;
+        }
+        #nextBtn{
+            border: none;
+            outline: none;
+            background-color: aliceblue;
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+            float: right;
+            margin-top: 10px;
+            margin-right: 100px;
+        }
+        #nextBtn:hover{
+            background-color: cadetblue;
+            color:white;
+        }
+        #question{
+            color: #f4f4f4;
+            margin-top: 20px;
+        }
+        #question-number{
+            color: #f4f4f4;
+        }

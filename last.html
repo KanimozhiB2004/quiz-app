@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="./last.css">
+</head>
+<body>
+    <div class="quiz-container">
+    <h1>Quiz Application</h1>
+    <button id="startBtn">Start Quiz</button>
+    <div id="quiz">
+       
+        <div class="create">
+            <div id="question-number"></div>
+        <!-- <div id="timer">10</div> -->
+        <div class="timer">Time: <span id="timer">10</span> s</div>
+        </div>
+        
+        <div id="question"></div>
+
+        <div id="answer-options">
+            <div class="option">
+                <input type="radio" name="answer" value="0" id="option1">
+                <label for="option1" id="option1-text"></label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" value="1" id="option2">
+                <label for="option2" id="option2-text"></label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" value="2" id="option3">
+                <label for="option3" id="option3-text"></label>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" value="3" id="option4">
+                <label for="option4" id="option4-text"></label>
+            </div>
+        </div>
+        
+        
+        <!-- <div id="progress-bar">
+            <div id="progress"></div>
+        </div> -->
+        <button id="nextBtn" style="display: none;">Next</button>
+    </div>
+
+    <div id="end-screen">
+        <h2>Quiz Finished!</h2>
+        <p>Your score: <span id="score"></span></p>
+        <ul id="correct-answers"></ul>
+        <button id="restartBtn">Restart Quiz</button>
+    </div>
+    </div>
+    <script src="./last.js"></script>
+</body>
+</html>
